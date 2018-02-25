@@ -30,7 +30,11 @@ public interface SearchTreeADT<T extends Comparable<T>> {
 	 *
 	 * @return the height of this tree
 	 */
+<<<<<<< HEAD
 	public int height();
+=======
+	public int height() ;
+>>>>>>> da593bb8058b12557b4eee3005d9769dc543a2c8
 	
 	// if key is in this BST, return true; otherwise, return false
 	public boolean lookup(T item) ;
